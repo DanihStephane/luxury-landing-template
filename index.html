@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><linearGradient id='grad' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' style='stop-color:%233b82f6;stop-opacity:1' /><stop offset='50%' style='stop-color:%238b5cf6;stop-opacity:1' /><stop offset='100%' style='stop-color:%23ec4899;stop-opacity:1' /></linearGradient></defs><rect width='100' height='100' fill='url(%23grad)' rx='20'/><text x='50' y='65' font-family='Arial,sans-serif' font-size='40' font-weight='bold' text-anchor='middle' fill='white'>BV</text></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Blue Valoris - Excellence Premium pour conquérir les marchés du Golfe. Branding révolutionnaire, digital haute performance, installation VIP et stratégie d'élite." />
+    <meta name="keywords" content="Blue Valoris, Abu Dhabi, Maurice, branding premium, e-commerce, conciergerie VIP, conseil stratégique, marchés du Golfe" />
+    <meta name="author" content="Blue Valoris" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bluevaloris.com/" />
+    <meta property="og:title" content="Blue Valoris - Excellence Premium pour les Marchés du Golfe" />
+    <meta property="og:description" content="Votre partenaire premium pour conquérir les marchés du Golfe. Branding, digital, installation et stratégie d'élite." />
+    <meta property="og:image" content="/og-image.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://bluevaloris.com/" />
+    <meta property="twitter:title" content="Blue Valoris - Excellence Premium" />
+    <meta property="twitter:description" content="Votre partenaire premium pour conquérir les marchés du Golfe." />
+    <meta property="twitter:image" content="/twitter-image.jpg" />
+
+    <title>Blue Valoris - Excellence Premium pour les Marchés du Golfe</title>
+    
+    <!-- Fonts optimisés -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Préchargement des ressources critiques -->
+    <link rel="preload" href="/src/main.tsx" as="script">
+    <link rel="preload" href="/src/App.tsx" as="script">
+    
+    <!-- Styles critiques inline pour éviter le FOUC -->
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background: #000000;
+        color: #ffffff;
+        font-family: 'Inter', sans-serif;
+        overflow-x: hidden;
+      }
+      
+      #root {
+        min-height: 100vh;
+      }
+      
+      /* Loading spinner premium */
+      .loading-spinner {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 60px;
+        height: 60px;
+        border: 3px solid rgba(59, 130, 246, 0.1);
+        border-top: 3px solid #3b82f6;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+        z-index: 9999;
+      }
+      
+      @keyframes spin {
+        0% { transform: translate(-50%, -50%) rotate(0deg); }
+        100% { transform: translate(-50%, -50%) rotate(360deg); }
+      }
+      
+      /* Effet de fade-in pour le contenu */
+      .app-container {
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+      }
+      
+      .app-container.loaded {
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <div class="loading-spinner"></div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- Scripts d'optimisation -->
+    <script>
+      // Optimisation du scroll
+      if ('scrollBehavior' in document.documentElement.style) {
+        document.documentElement.style.scrollBehavior = 'smooth';
+      }
+      
+      // Préchargement des images critiques
+      const criticalImages = [
+        // Ajoutez ici les URLs des images critiques
+      ];
+      
+      criticalImages.forEach(src => {
+        const link = document.createElement('link');
+        link.rel = 'preload';
+        link.as = 'image';
+        link.href = src;
+        document.head.appendChild(link);
+      });
+      
+      // Gestion du loading
+      window.addEventListener('load', () => {
+        const spinner = document.querySelector('.loading-spinner');
+        const appContainer = document.querySelector('.app-container');
+        
+        if (spinner) {
+          spinner.style.opacity = '0';
+          setTimeout(() => spinner.remove(), 300);
+        }
+        
+        if (appContainer) {
+          appContainer.classList.add('loaded');
+        }
+      });
+    </script>
+  </body>
+</html>
