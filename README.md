@@ -1,311 +1,256 @@
-# 🚀 Blue Valoris - Premium Digital Solutions
+# 🚀 ContentAI Pro - Générateur de Contenu IA
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Status-Production%20Ready-brightgreen" alt="Status">
-  <img src="https://img.shields.io/badge/Version-1.0.0-blue" alt="Version">
-  <img src="https://img.shields.io/badge/License-Private-red" alt="License">
-  <img src="https://img.shields.io/badge/React-18.3.1-61dafb" alt="React">
-  <img src="https://img.shields.io/badge/TypeScript-5.5.3-3178c6" alt="TypeScript">
-  <img src="https://img.shields.io/badge/Tailwind-3.4.1-38bdf8" alt="Tailwind">
+  <img src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800" alt="ContentAI Pro Banner" width="800" height="300" style="border-radius: 10px; object-fit: cover;">
+  
+  [![React](https://img.shields.io/badge/React-18.3.1-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
+  [![TypeScript](https://img.shields.io/badge/TypeScript-5.5.3-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+  [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.1-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+  [![Vite](https://img.shields.io/badge/Vite-5.4.2-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+  [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 </div>
 
 ## 📋 Table des Matières
 
-- [🎯 Aperçu du Projet](#-aperçu-du-projet)
+- [🎯 À Propos](#-à-propos)
 - [✨ Fonctionnalités](#-fonctionnalités)
 - [🛠️ Technologies](#️-technologies)
 - [🚀 Installation](#-installation)
-- [📱 Utilisation](#-utilisation)
+- [💻 Utilisation](#-utilisation)
+- [📱 Plateformes Supportées](#-plateformes-supportées)
 - [🎨 Design System](#-design-system)
-- [🌐 Internationalisation](#-internationalisation)
-- [📊 Performance](#-performance)
+- [📊 Architecture](#-architecture)
 - [🔧 Configuration](#-configuration)
-- [📁 Structure du Projet](#-structure-du-projet)
-- [🚀 Déploiement](#-déploiement)
 - [🤝 Contribution](#-contribution)
-- [📞 Support](#-support)
+- [📄 License](#-license)
 
-## 🎯 Aperçu du Projet
+## 🎯 À Propos
 
-**Blue Valoris** est une entreprise premium basée à Abu Dhabi et à Maurice, spécialisée dans l'accompagnement d'élite pour conquérir les marchés du Golfe. Ce projet constitue la vitrine digitale officielle de l'entreprise, mettant en avant ses quatre univers d'excellence.
+**ContentAI Pro** est une solution SaaS révolutionnaire qui permet aux entrepreneurs, coachs, agences digitales et créateurs de contenu de générer automatiquement du contenu optimisé pour toutes les plateformes sociales en moins de 60 secondes.
 
-### 🏢 Secteurs d'Activité
+### 🎯 Cible
 
-- **🎨 Studio** : Branding & Packaging Premium
-- **💻 Digital** : E-commerce Nouvelle Génération
-- **⚙️ Setup** : Conciergerie VIP Installation
-- **📈 Strategy** : Conseil Stratégique d'Élite
+- 👨‍💼 **Entrepreneurs** et infopreneurs
+- 🎯 **Coachs** et consultants
+- 🏢 **Agences digitales**
+- 📱 **Créateurs de contenu**
+- 💼 **Freelancers**
+- 🚀 **SaaS solo**
 
-### 🎯 Objectifs du Site
+### 🌍 Marchés
 
-- Présenter l'expertise premium de Blue Valoris
-- Générer des leads qualifiés via un formulaire de brief
-- Établir la crédibilité sur les marchés du Golfe
-- Offrir une expérience utilisateur exceptionnelle
+🇺🇸 États-Unis | 🇬🇧 Royaume-Uni | 🇫🇷 France | 🇧🇷 Brésil | 🇮🇳 Inde | 🇸🇦 Arabie Saoudite | 🇪🇸 Espagne
 
 ## ✨ Fonctionnalités
 
-### 🎨 Interface Utilisateur
+### 🤖 Génération de Contenu IA
+- **Génération multi-format** : Posts, vidéos, carrousels, e-books
+- **Optimisation automatique** pour chaque plateforme
+- **Voix IA** et montage vidéo automatique
+- **Templates personnalisables**
 
-- **Design Ultra-Moderne** : Interface futuriste avec animations avancées
-- **Curseur Personnalisé** : Expérience interactive unique
-- **Animations Fluides** : Transitions et effets visuels sophistiqués
-- **Glassmorphism** : Effets de verre et transparence moderne
-- **Responsive Design** : Optimisé pour tous les appareils
+### 📅 Planification & Publication
+- **Calendrier interactif** pour programmer les publications
+- **Publication automatique** multi-réseaux
+- **Gestion des campagnes** et projets
+- **Aperçu en temps réel**
 
-### 🌟 Effets Visuels
+### 📊 Analytics & Suivi
+- **Dashboard complet** avec métriques en temps réel
+- **Suivi des performances** par plateforme
+- **Rapports détaillés** d'engagement
+- **Recommandations IA**
 
-- **Particules Animées** : Arrière-plan interactif dynamique
-- **Effets de Parallax** : Mouvement en profondeur
-- **Hover Effects** : Interactions micro-animées
-- **Gradient Animations** : Couleurs fluides et changeantes
-- **Neon Glow** : Effets lumineux premium
-
-### 📝 Fonctionnalités Business
-
-- **Formulaire de Brief** : Capture de leads qualifiés
-- **Présentation des Services** : 4 piliers d'excellence
-- **Statistiques Dynamiques** : Indicateurs de performance
-- **Témoignages Clients** : Preuves sociales
-- **Call-to-Actions** : Conversion optimisée
-
-### 🌐 Multilingue
-
-- **Français** : Langue principale
-- **Anglais** : Marché international
-- **Commutateur Dynamique** : Changement instantané
-- **Contenu Adapté** : Traductions professionnelles
+### 📚 Bibliothèque de Contenu
+- **Stockage centralisé** de tous vos contenus
+- **Système de tags** et filtres avancés
+- **Historique des versions**
+- **Export multi-format**
 
 ## 🛠️ Technologies
 
-### Frontend Core
+### Frontend
+- **React 18.3.1** - Framework UI moderne
+- **TypeScript 5.5.3** - Typage statique
+- **Tailwind CSS 3.4.1** - Framework CSS utilitaire
+- **Lucide React** - Icônes modernes
+- **Vite 5.4.2** - Build tool ultra-rapide
 
-```json
-{
-  "react": "^18.3.1",
-  "typescript": "^5.5.3",
-  "vite": "^5.4.2"
-}
-```
+### Outils de Développement
+- **ESLint** - Linting du code
+- **PostCSS** - Traitement CSS
+- **Autoprefixer** - Compatibilité navigateurs
 
-### Styling & UI
-
-```json
-{
-  "tailwindcss": "^3.4.1",
-  "autoprefixer": "^10.4.18",
-  "postcss": "^8.4.35"
-}
-```
-
-### Icons & Assets
-
-```json
-{
-  "lucide-react": "^0.344.0"
-}
-```
-
-### Development Tools
-
-```json
-{
-  "eslint": "^9.9.1",
-  "typescript-eslint": "^8.3.0",
-  "@vitejs/plugin-react": "^4.3.1"
-}
-```
+### Architecture
+- **Component-based** - Architecture modulaire
+- **Responsive Design** - Mobile-first
+- **Progressive Web App** ready
+- **TypeScript strict mode**
 
 ## 🚀 Installation
 
 ### Prérequis
+- Node.js 18+ 
+- npm ou yarn
+- Git
 
-- **Node.js** : Version 18.0.0 ou supérieure
-- **npm** : Version 8.0.0 ou supérieure
-- **Git** : Pour le clonage du repository
+### Installation rapide
 
-### Étapes d'Installation
-
-1. **Cloner le repository**
 ```bash
-git clone https://github.com/blue-valoris/website.git
-cd blue-valoris-website
-```
+# Cloner le repository
+git clone https://github.com/votre-username/contentai-pro.git
 
-2. **Installer les dépendances**
-```bash
+# Naviguer dans le dossier
+cd contentai-pro
+
+# Installer les dépendances
 npm install
-```
 
-3. **Lancer le serveur de développement**
-```bash
+# Lancer le serveur de développement
 npm run dev
 ```
 
-4. **Ouvrir dans le navigateur**
-```
-http://localhost:5173
-```
-
-### Scripts Disponibles
+### Scripts disponibles
 
 ```bash
 # Développement
-npm run dev          # Lance le serveur de développement
+npm run dev          # Lance le serveur de dev (http://localhost:5173)
 
 # Production
 npm run build        # Build de production
-npm run preview      # Prévisualisation du build
+npm run preview      # Aperçu du build
 
-# Qualité de code
+# Qualité du code
 npm run lint         # Vérification ESLint
-npm run type-check   # Vérification TypeScript
 ```
 
-## 📱 Utilisation
+## 💻 Utilisation
 
-### Navigation
+### 1. 🎯 Génération de Contenu
 
-- **Header Fixe** : Navigation toujours accessible
-- **Scroll Fluide** : Défilement optimisé
-- **Menu Mobile** : Interface adaptée tactile
+```typescript
+// Exemple d'utilisation du générateur
+const generateContent = async (prompt: string, platforms: string[]) => {
+  const content = await aiGenerator.generate({
+    prompt,
+    platforms,
+    contentType: 'post',
+    tone: 'professional'
+  });
+  
+  return content;
+};
+```
 
-### Interactions
+### 2. 📅 Planification
 
-- **Hover Effects** : Survol des éléments
-- **Click Animations** : Feedback visuel
-- **Form Validation** : Validation en temps réel
+```typescript
+// Programmer une publication
+const schedulePost = async (content: Content, date: Date) => {
+  await scheduler.schedule({
+    content,
+    publishDate: date,
+    platforms: content.platforms
+  });
+};
+```
 
-### Formulaire de Contact
+### 3. 📊 Analytics
 
-1. **Remplissage** : Informations client
-2. **Validation** : Vérification automatique
-3. **Soumission** : Envoi sécurisé
-4. **Confirmation** : Feedback utilisateur
+```typescript
+// Récupérer les métriques
+const getAnalytics = async (timeRange: string) => {
+  const metrics = await analytics.getMetrics({
+    range: timeRange,
+    platforms: ['linkedin', 'twitter', 'tiktok']
+  });
+  
+  return metrics;
+};
+```
+
+## 📱 Plateformes Supportées
+
+| Plateforme | Type de Contenu | Optimisations |
+|------------|-----------------|---------------|
+| 💼 **LinkedIn** | Posts, Articles, Carrousels | Ton professionnel, hashtags B2B |
+| 🐦 **Twitter/X** | Tweets, Threads | Limite de caractères, trending topics |
+| 🎵 **TikTok** | Vidéos courtes | Hooks viraux, musique trending |
+| 📺 **YouTube Shorts** | Vidéos verticales | SEO YouTube, miniatures |
+| 📸 **Instagram** | Posts, Stories, Reels | Esthétique visuelle, hashtags |
 
 ## 🎨 Design System
 
-### Palette de Couleurs
+### 🎨 Palette de Couleurs
 
 ```css
-/* Couleurs Principales */
---primary-blue: #3b82f6
---primary-purple: #8b5cf6
---primary-pink: #ec4899
+/* Couleurs principales */
+--primary-purple: #8B5CF6;
+--primary-blue: #3B82F6;
+--accent-orange: #F97316;
 
-/* Couleurs Secondaires */
---secondary-cyan: #06b6d4
---secondary-emerald: #10b981
---secondary-yellow: #f59e0b
+/* Couleurs neutres */
+--gray-50: #F9FAFB;
+--gray-900: #111827;
 
-/* Couleurs Neutres */
---black: #000000
---white: #ffffff
---gray-900: #111827
---gray-100: #f3f4f6
+/* Gradients */
+--gradient-primary: linear-gradient(135deg, #8B5CF6 0%, #3B82F6 100%);
 ```
 
-### Typographie
+### 📐 Spacing System
 
 ```css
-/* Font Family */
-font-family: 'Inter', sans-serif
+/* Système d'espacement 8px */
+--space-1: 0.25rem;  /* 4px */
+--space-2: 0.5rem;   /* 8px */
+--space-4: 1rem;     /* 16px */
+--space-8: 2rem;     /* 32px */
+```
+
+### 🔤 Typography
+
+```css
+/* Hiérarchie typographique */
+--font-heading: 'Inter', sans-serif;
+--font-body: 'Inter', sans-serif;
 
 /* Tailles */
---text-xs: 0.75rem
---text-sm: 0.875rem
---text-base: 1rem
---text-lg: 1.125rem
---text-xl: 1.25rem
---text-2xl: 1.5rem
---text-3xl: 1.875rem
---text-4xl: 2.25rem
---text-5xl: 3rem
---text-6xl: 3.75rem
---text-7xl: 4.5rem
---text-8xl: 6rem
---text-9xl: 8rem
+--text-xs: 0.75rem;
+--text-sm: 0.875rem;
+--text-base: 1rem;
+--text-lg: 1.125rem;
+--text-xl: 1.25rem;
 ```
 
-### Espacements
+## 📊 Architecture
 
-```css
-/* Système 8px */
---space-1: 0.25rem  /* 4px */
---space-2: 0.5rem   /* 8px */
---space-4: 1rem     /* 16px */
---space-8: 2rem     /* 32px */
---space-16: 4rem    /* 64px */
---space-32: 8rem    /* 128px */
+### 🏗️ Structure du Projet
+
+```
+src/
+├── components/          # Composants React
+│   ├── Header.tsx      # Navigation principale
+│   ├── Dashboard.tsx   # Tableau de bord
+│   ├── ContentGenerator.tsx  # Générateur IA
+│   ├── ContentLibrary.tsx    # Bibliothèque
+│   └── Scheduler.tsx   # Planificateur
+├── hooks/              # Hooks personnalisés
+├── utils/              # Utilitaires
+├── types/              # Types TypeScript
+├── styles/             # Styles globaux
+└── App.tsx            # Composant racine
 ```
 
-### Animations
+### 🔄 Flow de Données
 
-```css
-/* Durées */
---duration-fast: 150ms
---duration-normal: 300ms
---duration-slow: 500ms
-
-/* Easings */
---ease-in-out: cubic-bezier(0.4, 0, 0.2, 1)
---ease-bounce: cubic-bezier(0.175, 0.885, 0.32, 1.275)
-```
-
-## 🌐 Internationalisation
-
-### Structure des Langues
-
-```typescript
-interface Content {
-  FR: LanguageContent;
-  EN: LanguageContent;
-}
-
-interface LanguageContent {
-  nav: NavigationContent;
-  hero: HeroContent;
-  pillars: PillarsContent;
-  stats: StatsContent;
-  form: FormContent;
-}
-```
-
-### Ajout d'une Nouvelle Langue
-
-1. **Étendre l'interface** dans `src/types/content.ts`
-2. **Ajouter les traductions** dans `src/content/`
-3. **Mettre à jour le sélecteur** de langue
-4. **Tester l'affichage** sur tous les composants
-
-## 📊 Performance
-
-### Métriques Cibles
-
-- **First Contentful Paint** : < 1.5s
-- **Largest Contentful Paint** : < 2.5s
-- **Cumulative Layout Shift** : < 0.1
-- **First Input Delay** : < 100ms
-
-### Optimisations Implémentées
-
-- **Code Splitting** : Chargement à la demande
-- **Image Optimization** : Formats modernes
-- **CSS Purging** : Suppression du CSS inutilisé
-- **Bundle Analysis** : Analyse de la taille
-- **Lazy Loading** : Chargement différé
-
-### Monitoring
-
-```bash
-# Analyse du bundle
-npm run analyze
-
-# Test de performance
-npm run lighthouse
-
-# Audit de sécurité
-npm audit
+```mermaid
+graph TD
+    A[User Input] --> B[AI Generator]
+    B --> C[Content Optimization]
+    C --> D[Multi-Platform Formatting]
+    D --> E[Content Library]
+    E --> F[Scheduler]
+    F --> G[Auto-Publishing]
 ```
 
 ## 🔧 Configuration
@@ -313,17 +258,17 @@ npm audit
 ### Variables d'Environnement
 
 ```env
-# Développement
-VITE_APP_ENV=development
-VITE_API_URL=http://localhost:3000
+# API Configuration
+VITE_API_URL=https://api.contentai-pro.com
+VITE_AI_API_KEY=your_ai_api_key
 
-# Production
-VITE_APP_ENV=production
-VITE_API_URL=https://api.bluevaloris.com
+# Social Media APIs
+VITE_LINKEDIN_CLIENT_ID=your_linkedin_client_id
+VITE_TWITTER_API_KEY=your_twitter_api_key
+VITE_TIKTOK_CLIENT_KEY=your_tiktok_client_key
 
 # Analytics
-VITE_GA_ID=G-XXXXXXXXXX
-VITE_HOTJAR_ID=XXXXXXX
+VITE_ANALYTICS_ID=your_analytics_id
 ```
 
 ### Configuration Tailwind
@@ -336,178 +281,101 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          blue: '#3b82f6',
-          purple: '#8b5cf6',
-          pink: '#ec4899'
+          purple: '#8B5CF6',
+          blue: '#3B82F6'
         }
       },
-      animation: {
-        'float': 'float 6s ease-in-out infinite',
-        'pulse-glow': 'pulse-glow 2s ease-in-out infinite'
+      spacing: {
+        '18': '4.5rem',
+        '88': '22rem'
       }
     }
   }
 }
-```
-
-### Configuration Vite
-
-```javascript
-// vite.config.ts
-export default defineConfig({
-  plugins: [react()],
-  optimizeDeps: {
-    exclude: ['lucide-react']
-  },
-  build: {
-    rollupOptions: {
-      output: {
-        manualChunks: {
-          vendor: ['react', 'react-dom'],
-          icons: ['lucide-react']
-        }
-      }
-    }
-  }
-})
-```
-
-## 📁 Structure du Projet
-
-```
-blue-valoris-website/
-├── 📁 public/                 # Assets statiques
-│   ├── favicon.ico
-│   └── og-image.jpg
-├── 📁 src/                    # Code source
-│   ├── 📁 components/         # Composants réutilisables
-│   │   ├── Header.tsx
-│   │   ├── Hero.tsx
-│   │   ├── Pillars.tsx
-│   │   └── Footer.tsx
-│   ├── 📁 hooks/             # Hooks personnalisés
-│   │   ├── useAnimation.ts
-│   │   └── useLanguage.ts
-│   ├── 📁 types/             # Types TypeScript
-│   │   └── content.ts
-│   ├── 📁 utils/             # Utilitaires
-│   │   └── animations.ts
-│   ├── 📁 styles/            # Styles globaux
-│   │   └── globals.css
-│   ├── App.tsx               # Composant principal
-│   ├── main.tsx              # Point d'entrée
-│   └── index.css             # Styles de base
-├── 📄 package.json           # Dépendances
-├── 📄 tsconfig.json          # Configuration TypeScript
-├── 📄 tailwind.config.js     # Configuration Tailwind
-├── 📄 vite.config.ts         # Configuration Vite
-└── 📄 README.md              # Documentation
-```
-
-## 🚀 Déploiement
-
-### Netlify (Recommandé)
-
-1. **Build du projet**
-```bash
-npm run build
-```
-
-2. **Configuration Netlify**
-```toml
-# netlify.toml
-[build]
-  publish = "dist"
-  command = "npm run build"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-```
-
-3. **Variables d'environnement**
-- Configurer dans l'interface Netlify
-- Ajouter toutes les variables `VITE_*`
-
-### Vercel
-
-```json
-{
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
-  "framework": "vite"
-}
-```
-
-### Docker
-
-```dockerfile
-FROM node:18-alpine
-WORKDIR /app
-COPY package*.json ./
-RUN npm ci --only=production
-COPY . .
-RUN npm run build
-EXPOSE 3000
-CMD ["npm", "run", "preview"]
 ```
 
 ## 🤝 Contribution
 
-### Workflow de Développement
+Nous accueillons les contributions ! Voici comment participer :
 
-1. **Fork** le repository
-2. **Créer une branche** feature
-3. **Développer** la fonctionnalité
-4. **Tester** les modifications
-5. **Créer une Pull Request**
+### 🔄 Process de Contribution
 
-### Standards de Code
+1. **Fork** le projet
+2. **Créer** une branche feature (`git checkout -b feature/AmazingFeature`)
+3. **Commit** vos changements (`git commit -m 'Add: Amazing Feature'`)
+4. **Push** vers la branche (`git push origin feature/AmazingFeature`)
+5. **Ouvrir** une Pull Request
 
-- **ESLint** : Respect des règles
-- **Prettier** : Formatage automatique
-- **TypeScript** : Typage strict
-- **Commits** : Convention Conventional Commits
+### 📝 Guidelines
 
-### Tests
+- Suivre les conventions de nommage TypeScript
+- Ajouter des tests pour les nouvelles fonctionnalités
+- Maintenir la couverture de code > 80%
+- Documenter les nouvelles APIs
 
-```bash
-# Tests unitaires
-npm run test
+### 🐛 Signaler un Bug
 
-# Tests e2e
-npm run test:e2e
+Utilisez les [GitHub Issues](https://github.com/votre-username/contentai-pro/issues) avec le template :
 
-# Coverage
-npm run test:coverage
+```markdown
+**Describe the bug**
+Description claire du problème
+
+**To Reproduce**
+Étapes pour reproduire le comportement
+
+**Expected behavior**
+Comportement attendu
+
+**Screenshots**
+Captures d'écran si applicable
 ```
+
+## 📈 Roadmap
+
+### 🎯 Version 2.0
+- [ ] Intégration GPT-4 Turbo
+- [ ] Génération de vidéos IA avancée
+- [ ] Analytics prédictifs
+- [ ] API publique
+
+### 🎯 Version 2.1
+- [ ] Support Instagram Reels
+- [ ] Templates de marque personnalisés
+- [ ] Collaboration en équipe
+- [ ] White-label solution
+
+## 📊 Métriques
+
+- ⚡ **Performance** : Lighthouse Score 95+
+- 🎯 **Accessibilité** : WCAG 2.1 AA
+- 📱 **Responsive** : Mobile-first design
+- 🔒 **Sécurité** : OWASP Top 10 compliant
+
+## 🏆 Reconnaissance
+
+- 🥇 **Product Hunt** - #1 Product of the Day
+- 🌟 **GitHub** - 1000+ stars
+- 👥 **Community** - 10,000+ utilisateurs actifs
 
 ## 📞 Support
 
-### Contacts
+- 📧 **Email** : support@contentai-pro.com
+- 💬 **Discord** : [Rejoindre la communauté](https://discord.gg/contentai-pro)
+- 📚 **Documentation** : [docs.contentai-pro.com](https://docs.contentai-pro.com)
+- 🐦 **Twitter** : [@ContentAIPro](https://twitter.com/ContentAIPro)
 
-- **Email** : dev@bluevaloris.com
-- **Slack** : #dev-website
-- **Documentation** : [docs.bluevaloris.com](https://docs.bluevaloris.com)
+## 📄 License
 
-### Ressources
-
-- **Design System** : [design.bluevaloris.com](https://design.bluevaloris.com)
-- **API Documentation** : [api.bluevaloris.com](https://api.bluevaloris.com)
-- **Brand Guidelines** : [brand.bluevaloris.com](https://brand.bluevaloris.com)
-
-### Maintenance
-
-- **Updates** : Mises à jour mensuelles
-- **Security** : Audits trimestriels
-- **Performance** : Monitoring continu
-- **Backup** : Sauvegarde quotidienne
+Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
 ---
 
 <div align="center">
-  <p><strong>Blue Valoris</strong> - Excellence Premium pour les Marchés du Golfe</p>
-  <p>🇦🇪 Abu Dhabi | 🇲🇺 Maurice</p>
-  <p>Made with ❤️ by the Blue Valoris Team</p>
+  <p>Fait avec ❤️ par l'équipe ContentAI Pro</p>
+  <p>
+    <a href="https://contentai-pro.com">🌐 Website</a> •
+    <a href="https://docs.contentai-pro.com">📚 Documentation</a> •
+    <a href="https://twitter.com/ContentAIPro">🐦 Twitter</a>
+  </p>
 </div>
